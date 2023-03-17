@@ -1,0 +1,36 @@
+[
+        {
+            "name" : "All",
+            "groupIdentityName": "Mail All",
+            "usersDn": [
+                "OU=Users,OU=CO,OU=Accounts,DC=example,DC=com",
+                "OU=Users,OU=Branch1,OU=Accounts,DC=example,DC=com",
+                "OU=Users,OU=Branch2,OU=Accounts,DC=example,DC=com"
+            ]
+        },
+        {
+            "name" : "CO",
+            "groupIdentityName": "Mail CO All",
+            "usersDn": ["OU=Users,OU=CO,OU=Accounts,DC=example,DC=com"]
+        },
+        {
+            "name" : "Branch1",
+            "groupIdentityName": "Mail Branch1 All",
+            "usersDn": ["OU=Users,OU=Branch1,OU=Accounts,DC=example,DC=com"]
+        },
+        {
+            "name" : "Branch2",
+            "groupIdentityName": "Mail Branch2 All",
+            "usersDn": "OU=Users,OU=Branch2,OU=Accounts,DC=example,DC=com"
+        },
+        {
+            "name" : "CO",
+            "groupIdentityName": "Mail CO All",
+            "usersDn": "OU=Users,OU=CO,OU=Accounts,DC=example,DC=com"
+        },
+        {
+            "name" : "Liman",
+            "groupIdentityName": "Mail Liman All",
+            "usersDn": "OU=Users,OU=Лиман,OU=Accounts,DC=example,DC=com"
+        }
+]
